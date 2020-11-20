@@ -1,6 +1,10 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} 
 html,body{
     height: 100%;
-    margin: 10px;
     width: 100%;
 }
 
@@ -33,13 +37,12 @@ html,body{
     color: black;
     display: inline-block;
     width: 25%;
-    margin-left: 0px;
-    margin-right: 0px;
+   height: 80%;
 }
 
 
 .main-container{
-    padding-left: 10px;
+    
     background-color: rgb(230, 59, 102);
     border-style: solid;
     border-radius: 5px;
@@ -48,19 +51,28 @@ html,body{
     display: inline-block;
     vertical-align: top;
     height: 80%;
-    width: 46%;
-    margin-left: 0px;
-    margin-right:0px;
+    width: 47%;
+    
 }
+
+.main-container h2{
+  display:block;
+} 
 
 .main-container article{
     background-color: yellow;
     border-color: green;
     color: black;
-    margin: 20px 10px 10px 10px;
-    padding-left: 10px;
-    height: 5%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 30%;
+    max-height: 100%;
+    margin-top: 0;
+    margin-right: auto;
     display: block;
+    margin-left: auto;
+    width: 98%;
+    max-width: 100%;
 }
 
 footer{
