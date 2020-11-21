@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;  /* el tamaño de los elementos se rige por medio de su borde, por lo cual el content-box es mas pequeño */
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+}
+
+.header{
+    background-color: blue;
+    border: 1px solid red;
+    height:5%;
+}
+
+.header nav {
+    background-color: orange;
+    border: 2px solid green;
+    border-radius: 5px;    
+}
+
+aside {
+    border: 1px solid orange;
+    border-radius: 5px;
+    width: 20%;
+    background-color: orange;
+}
+
+main {
+    background-color: red;
+    border: 1px solid orange;
+    width: 60%;
+}
+
+footer {
+    background-color: purple;
+    color: white;
+    height: auto;
+    height: 5%;
+}
+
+/*  */
+
+.flex-container{
+    border: 1px solid red;
+    margin: 20px 0;
+    height: 150px;
+}
+
+.display-flex{
+    display: flex;
+    height: 90%;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+
+.justify-content-flex-start{
+    justify-content: start;
+}
+
+.justify-content-flex-end{
+    justify-content: end;
+}
+
+.justify-content-between{
+    justify-content: space-between;
+}
+
+.justify-content-around{
+    justify-content: space-around;
+}
+
+.justify-content-evenly{
+    justify-content: space-evenly;
+}
+
+
+.flex-item{
+    height: 100%;
+}
+
+.flex-item:nth-of-type(odd){
+    background-color: pink;
+}
