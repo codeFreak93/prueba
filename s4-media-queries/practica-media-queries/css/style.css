@@ -65,8 +65,9 @@ body {
         margin-bottom: 1%;
     }
     .square {
-        border-radius: 100%;
-        width: 20%;
+        border-radius: 50%;
+        width: 300px;
+        height: 300px;
     }
     .square:nth-of-type(1) {
         background-color: blue;
