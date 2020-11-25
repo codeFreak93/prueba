@@ -82,3 +82,22 @@ body {
         align-self: baseline;
     }
 }
+
+.section-menu {
+    height: 100vh;
+}
+
+#checked-menu {
+    display: none:
+}
+
+.menu {
+    background-color: steelblue;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 5px;
+}
