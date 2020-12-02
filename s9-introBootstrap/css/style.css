@@ -1,0 +1,40 @@
+body,
+html {
+  height: 100vh;
+}
+
+.header {
+  padding-bottom: 1em;
+}
+
+.aside1 {
+  background-color: #ffd900;
+  min-height: 20vh;
+  height: auto;
+}
+
+.main {
+  background-color: #f74b68;
+  padding: 0 1.5em 0 1.5em;
+  min-height: 60vh;
+  max-height: 80vh;
+  height: auto;
+}
+
+.main article {
+  background-color: yellow;
+  margin: 0 0 1em 0;
+  height: 6em;
+}
+
+.footer {
+  height: 4em;
+  background-color: purple;
+}
+
+@media only screen and (min-width: 768px) {
+  .main {
+    height: 80vh;
+  }
+}
+/*# sourceMappingURL=style.css.map */
